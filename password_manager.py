@@ -45,4 +45,6 @@ while True:
         view()
     elif mode == "add":
         add()
-   
+    else:
+        print("Invalid mode.")
+        continue
